@@ -1,0 +1,26 @@
+Before start
+  - Winning criteria: 
+    - Winning points defined by user
+    - User defined timeout
+    - Disconnection
+  - Game area is defined
+    - Default game area dimensions are: 800x400
+    - Default paddle area: 10,100
+    - Default paddle location: Middle
+      - // location vs area : Should area include location data in game field
+
+Game start
+  - Ball initial location is in the middle of the game area
+    - Ball initial coordinates: 400,200
+  - Ball starts to move randomly to left or right
+    - Restrictions apply to angle: should be greater than 90 degrees. Ball may not move along y-axis only which leads to infinite game.
+  - Ball movement speed is constant
+
+
+During the game
+
+
+Game end
+  - Game ends to win (winning points achieved, user defined)
+  - Game ends to deadline timeout (user defined)
+  - Disconnection
